@@ -14,8 +14,8 @@ export default function Home() {
       <div className="text-white text-lg font-medium max-sm:text-sm">We’re switching on to a new experience soon!</div>
       </div>
       <div className="z-10 flex items-center justify-between gap-10">
-        <Link href="https://www.instagram.com/microlightsgroup/" target="_blank"><AiFillInstagram size={54} /></Link>
-        <Link href="https://www.linkedin.com/company/microlights/" target="_blank"><IoLogoLinkedin size={48} /></Link>
+        <Link href="https://www.instagram.com/microlightsgroup/" target="_blank"><AiFillInstagram size={54} className="text-white"/></Link>
+        <Link href="https://www.linkedin.com/company/microlights/" target="_blank"><IoLogoLinkedin size={48} className="text-white"/></Link>
       </div>
     </div>
   );
