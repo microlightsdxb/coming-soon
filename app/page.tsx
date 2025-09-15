@@ -13,9 +13,11 @@ export default function Home() {
       <div className="text-white text-xl font-semibold">Innovate. Illuminate. Inspire</div>
       <div className="text-white text-lg font-medium max-sm:text-sm">We’re switching on to a new experience soon!</div>
       </div>
-      <div className="z-10 flex items-center justify-between gap-10">
-        <Link href="https://www.instagram.com/microlightsgroup/" target="_blank"><AiFillInstagram size={54} className="text-white"/></Link>
-        <Link href="https://www.linkedin.com/company/microlights/" target="_blank"><IoLogoLinkedin size={48} className="text-white"/></Link>
+      <div className="absolute bottom-10  z-10 w-full flex items-baseline justify-center">
+      <div className="z-10 flex items-center justify-end gap-10">
+        <Link href="https://www.instagram.com/microlightsgroup/" target="_blank"><AiFillInstagram size={35} className="text-white opacity-50 hover:opacity-100 transition-all duration-300 ease-in-out"/></Link>
+        <Link href="https://www.linkedin.com/company/microlights/" target="_blank"><IoLogoLinkedin size={31} className="text-white opacity-50 hover:opacity-100 transition-all duration-300 ease-in-out"/></Link>
+      </div>
       </div>
     </div>
   );
